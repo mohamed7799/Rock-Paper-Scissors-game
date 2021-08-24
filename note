@@ -1,0 +1,22 @@
+-build the mobile design step 1
+--build the html and extract the sections*
+--build the layout*
+--make it responsive with desktop*
+--build the html for the rule modal*
+--build the layout for the rule modal*
+--make it responsive with desktop*
+--add the click functionality with js to hide and show the rule modal*
+
+----now you have the basic mobile and desktop design with the rule modal working*
+
+-build step 2-3-4 with html and scss only
+--build the html*
+--build the layout*
+--make them responsive with desktop*
+
+----now you have all the steps in static mode*
+
+-implement the playing functionality
+--changing the steps
+--computing the results
+--save the results on the local storage

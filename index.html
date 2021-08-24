@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Rock paper scissors</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="./imgs/logo.svg" alt="" /></div>
+
+      <div class="score">
+        <h6>score</h6>
+        <h2>12</h2>
+      </div>
+    </header>
+    <main>
+      <ul class="playing-icons hidden">
+        <li class="playing-icons__item">
+          <div class="icon paper-icon user-choice">
+            <img src="./imgs/icon-paper.svg" alt="" />
+          </div>
+          <h3>YOU PICKED</h3>
+        </li>
+        <li class="playing-icons__item">
+          <div class="icon scissors-icon waiting">
+            <img src="./imgs/icon-scissors.svg" alt="" />
+          </div>
+          <h3>THE HOUSE PICKED</h3>
+        </li>
+        <li class="result hidden">
+          <h1>YOU WIN</h1>
+          <button class="play-again">PLAY AGAIN</button>
+        </li>
+      </ul>
+
+      <ul class="choosing-icons">
+        <li class="icon paper-icon">
+          <img src="./imgs/icon-paper.svg" alt="" />
+        </li>
+        <li class="icon scissors-icon">
+          <img src="./imgs/icon-scissors.svg" alt="" />
+        </li>
+        <li class="icon rock-icon">
+          <img src="./imgs/icon-rock.svg" alt="" />
+        </li>
+      </ul>
+    </main>
+    <footer><button class="show-rules">RULES</button></footer>
+    <div class="container-rules-modal hidden">
+      <section class="rules-modal">
+        <h2 class="rules-modal__title">RULES</h2>
+        <div class="rules-modal__img">
+          <img src="/imgs/image-rules.svg" alt="" />
+        </div>
+
+        <i class="fas fa-times rules-modal__close"></i>
+      </section>
+    </div>
+
+    <script src="code.js"></script>
+  </body>
+</html>
